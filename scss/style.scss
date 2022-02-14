@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: lato;
+  width: 100%;
+  p {
+    color: grey;
+  }
+
+}
+
+
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+
+  p {
+    color: black
+  }
+
+  button {
+    background: #007bff;
+    color: white;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0ch;
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  color: white;
+  background: blue;
+  background: url("https://images.unsplash.com/photo-1507166763745-bfe008fbb831?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  .text {
+    margin: auto;
+  }
+  
+   h1 {
+    width: 100%;
+     margin-bottom: 40px;
+   }
+
+   .bottom {
+     display: flex;
+     justify-content: center;
+
+   .email {
+      background: white;
+      color: grey;
+      padding: 8px;
+      padding-right: 200px;
+      margin-right: 10px;
+      border-radius: 5px;
+      font-size: 0.9em;
+   }
+      button {
+        background: #007bff;
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        border: none;
+      }
+    }
+  }
+
+.second {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  align-items: center;
+  height: 300px;
+  text-align: center;
+ 
+div {
+   max-width: 240px;
+   margin: 50px;
+ }
+
+ 
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+.list-1, .list-2, .list-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px;
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+
+  img {
+    width: 600px;
+  }
+
+  .text {
+    margin: auto;
+    width: 400px;
+  }
+}
+
+.fourth {
+  background-color: #f8f9fa;
+  
+
+  h2 {
+    text-align: center;
+    padding-top: 80px;
+  }
+
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  padding-bottom: 40px;
+ 
+div {
+   max-width: 240px;
+   margin: 50px;
+ }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+}
+}
+
+.footer-1 {
+
+display: flex;
+  align-items: center;
+  height: 250px;
+  color: white;
+  background: blue;
+  background: url("https://images.unsplash.com/photo-1507166763745-bfe008fbb831?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  .text {
+    margin: auto;
+  }
+  
+   h2 {
+    width: 100%;
+     margin-bottom: 40px;
+   }
+
+   .bottom {
+     display: flex;
+     justify-content: center;
+
+   .email {
+      background: white;
+      color: grey;
+      padding: 8px;
+      padding-right: 200px;
+      margin-right: 10px;
+      border-radius: 5px;
+      font-size: 0.9em;
+   }
+      button {
+        background: #007bff;
+        color: white;
+        font-size: 1em;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        border: none;
+      }
+    }
+  }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  margin: auto;
+  
+
+ a {
+    color: #007bff;
+    padding-right: 20px;
+
+  }
+
+  .social {
+    width: 30px;
+    height: 30px;
+    padding-left: 13px;
+  }
+}
+
+
+@media (max-width:768px) {
+  .header-top {
+    font-size: 1.2em;
+  }
+  }
+@media (max-width:768px) {
+   header .bottom {
+    flex-direction: column;
+    width: 50%;
+    button {
+      margin-top: 20px;
+    }
+  }
+  }
+@media (max-width:768px) {
+  .second {
+    flex-direction: column;
+    height: 100%;
+  }
+  }
+
+  @media (max-width:768px) {
+  .people {
+    flex-direction: column;
+    line-height: 100%;
+    overflow: hidden;
+  }
+  }
+
+  @media (max-width:768px) {
+    header .bottom {
+     flex-direction: column;
+     width: 50%;
+     button {
+       margin-top: 20px;
+     }
+   }
+   }

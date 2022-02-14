@@ -1,0 +1,64 @@
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+  
+    p {
+      color: black
+    }
+  
+    button {
+      background: #007bff;
+      color: white;
+      font-size: 0.8em;
+      padding: 5px;
+      border-radius: 5px;
+      border: 0ch;
+    }
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    color: white;
+    background: blue;
+    background: url("https://images.unsplash.com/photo-1507166763745-bfe008fbb831?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  
+    .text {
+      margin: auto;
+    }
+    
+     h1 {
+      width: 100%;
+       margin-bottom: 40px;
+     }
+  
+     .bottom {
+       display: flex;
+       justify-content: center;
+  
+     .email {
+        background: white;
+        color: grey;
+        padding: 8px;
+        padding-right: 200px;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-size: 0.9em;
+     }
+        button {
+          background: #007bff;
+          color: white;
+          font-size: 1em;
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          border-radius: 5px;
+          border: none;
+        }
+      }
+    }
